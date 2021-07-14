@@ -334,29 +334,10 @@ iframe{
        padding: 14px 0px;
        grid-column-gap: 20px;
    }
-   .country{
-       grid-template-columns: repeat(1, 1fr);
-   }
-   .country{
-       padding:0;
-   }
-   .country-banner .country-img img{
-       width: 100%;
-      
-   }
-   .about-detail{
-       grid-template-columns: repeat(1, 1fr);
-   }
-   .about-detail .about-image img {
-       width: 100%;
-       border-radius: 10px;
-   }
-   .country-title {
-       margin-top: 50px;
-   }
-   .footer-logo img {
-       width: 300px;
-   }
+
+.footer-logo img {
+    width: 300px;
+}
    .footer-icon span i {
        font-size: 16px;
    }
