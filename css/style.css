@@ -300,6 +300,7 @@ iframe{
 
 
 
+/* responsive css */
 
 
 @media only screen and (max-width:768px){
@@ -430,5 +431,11 @@ iframe{
 .navbar-options{
 display: none;
 }
+.content-item h1 {
+    font-size: 46px;
+}
+.content-item p {
+    font-size: 14px;
 
+}
 }
