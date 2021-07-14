@@ -17,6 +17,9 @@
 .container{
 
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
  } 
 
@@ -36,7 +39,7 @@
 
 .header-bg{
     background-color: var(--Banner-colour);
-    padding: 2rem 0;
+    padding: 2rem 0 5rem 0;
 }
 .header-section{
     width: 1440px;
@@ -62,7 +65,7 @@
     line-height: 80px;
     margin-bottom: 1rem;
 }
-.button-banner{
+.btn-banner{
    display: inline-block;
 
 }
@@ -70,6 +73,10 @@
 .header-thumbnail{
     width: 45%;
     margin-left: 9rem;
+}
+
+.header-detail i{
+    margin-left: .8rem;
 }
 
 
@@ -106,21 +113,171 @@
     color:var(--white-color);
 }
 
-.login-button{
+.btn{
     background-color: var(--pink-color);
     padding: .5em 2rem;
 }
-.login-button i{
+.btn i{
     color: var(--white-color);
     margin-right: .5em;
     
 }
-.login-button a{
+.btn a{
     color: var(--white-color);
     text-decoration: none;
+}
+
+/* main-part-start */
+
+ /*--------------------- 
+        player css start
+------------------------- */
+main{
+    background: #fff;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 5rem 17rem;
+}
+.player{
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card-detail {
+    box-shadow: 1px 1px 10px -1px #aaaaaa;
+    padding: 15px;
+}
+.card-detail .card-img img{
+    width: 100%;
+}
+.card-info p{
+    color: #666;
+}
+ /*--------------------- 
+        player css end
+------------------------- */
+
+
+
+/* <!-- highlight-part-start --> */
+.highlight-part{
+    margin-bottom: 10rem;
+}
+.highlight-section{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-part{
+    width: 50%;
+}
+.content-item{
+    width: 66%;
+    margin-bottom: 1rem;
+}
+.content-item h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.content-item p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.image-part{
+    width: 50%;
+}
+
+
+
+/* form-part-start */
+.form-part{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 1440px;
+    background-color: #acc8e7;
+
+}
+.image-part-submit-area{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form-img{
+    
+}
+.submit-form{
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.submit-form-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-form-data h2{
+    color: var(--pink-color);
+}
+
+.submit-form-data input{
+    font-size: 2em;
+    margin-top: 1rem;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+.customize-btn{
+    font-size: 2em;
+    margin-top: 1rem;
+    border: 1px solid lightgray;
+    background-color: #82A22B;
+    width: 50%;
+    border-radius: 15px;
+    color: var(--white-color);
 }
 
 
 
 
+/* footer-part-start */
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
+.footer-logo img{
+    width:400px
+}
+.footer-icon{
+    padding: 10px 0;
+}
+.footer-icon span i{
+    padding: 10px;
+    background-color: #E7E7E8;
+    font-size: 24px;
+    color:#666;
+    border-radius: 26px;
+    margin-right: 14px;
+}
+.footer-copyright p{
+    color: #000000;
+    font-size: 22px;
+}
